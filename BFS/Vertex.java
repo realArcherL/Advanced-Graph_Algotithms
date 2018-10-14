@@ -26,7 +26,7 @@ public class Vertex {
         this.visited = visited;
     }
 
-    //geeters
+    //getters
     public int getData() {
         return data;
     }
