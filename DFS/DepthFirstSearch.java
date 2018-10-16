@@ -34,4 +34,17 @@ public class DepthFirstSearch {
             }
         }
     }
+    // more rhobust and Faster than the previous
+    public void DFSRecursion(Vertex root){
+
+        System.out.print(root+"-");
+
+        for (Vertex v: root.getAdjacenciesList()){
+            if(!v.isVisited()){
+                v.setVisited(true);
+                v.setPredecessor(v);
+                DFSRecursion(v);
+            }
+        }
+    }
 }
