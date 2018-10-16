@@ -29,6 +29,7 @@ public class App {
         vertexi.addAdjacencies(vertexh);
         vertexi.addAdjacencies(vertexs);
 
-        dfsCall.DFS(root);
+       // dfsCall.DFS(root);
+        dfsCall.DFSRecursion(root);
     }
 }
