@@ -3,7 +3,10 @@ package WebCrawler;
 import java.util.ArrayList;
 import java.util.List;
 
-
+/**
+* practically not used in the class with the BFS and APP.java files
+* @author ArcherL
+*/
 public class Vertex {
     private String name;
     private boolean isVisited;
